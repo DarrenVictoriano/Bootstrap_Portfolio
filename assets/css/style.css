@@ -1,0 +1,40 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+#text-img {
+    text-shadow: 2px 2px #000;
+}
+
+/* Start of Line-On text */
+.fancy {
+    line-height: 0.2;
+    text-align: center;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid #fff;
+    top: 0;
+    width: 4em;
+    box-shadow: 0.5px 1px #000;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 10px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 10px;
+  }
+/* End Of Line-On text */
+
+#myName {
+    font-size: 3em;
+}
