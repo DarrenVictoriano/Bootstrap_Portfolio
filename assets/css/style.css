@@ -50,5 +50,11 @@ body {
 }
 
 .footerBG {
+  background-image: url("../images/banner-mountain-foot.png");
   background-color: #6A6FA2;
+}
+
+.social-size {
+  width: 45px;
+  height: 45px;
 }
